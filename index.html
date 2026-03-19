@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Majestic Double Slider Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="container">
+
+  <!-- Login Form -->
+  <div class="form-container sign-in-container">
+    <form>
+      <h1 class="slide-word">Login</h1>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button>Login</button>
+    </form>
+  </div>
+
+  <!-- Sign Up Form -->
+  <div class="form-container sign-up-container">
+    <form>
+      <h1 class="slide-word">Sign Up</h1>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button>Sign Up</button>
+    </form>
+  </div>
+
+  <!-- Overlay Panels -->
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-left">
+        <h1>Welcome Back!</h1>
+        <p>To keep your journey going, login here</p>
+        <button class="ghost" id="signIn">Login</button>
+      </div>
+      <div class="overlay-panel overlay-right">
+        <h1>Hello, Friend!</h1>
+        <p>Enter your details and start your royal journey</p>
+        <button class="ghost" id="signUp">Sign Up</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Glowing Arrow -->
+  <div class="glow-arrow" id="glowArrow">➤</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
